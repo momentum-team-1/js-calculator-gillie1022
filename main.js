@@ -1,14 +1,16 @@
-let x=document.querySelector(".calculator")
+let x = document.querySelector(".calculator");
 
-console.log(x)
+let screen = document.querySelector("#screen");
 
-let screen = document.querySelector("#screen")
+for (let num of document.querySelectorAll(".button")) {
+  num.addEventListener("click", function () {
+    screen.textContent += num.id;
+  });
+}
 
-// screen.textContent=""
+let clear = document.querySelector("#clear");
+clear.addEventListener("click", function(){screen.textContent=""});
 
-// let one = document.querySelector("#one");
-
-// one.addEventListener("click",function(){screen.textContent+=1});
-// twoClick.addEventListener("click",function(){screen.textContent+=1});
-
-for (let num of document.querySelectorAll(".numberButton")){num.addEventListener("click", function(){screen.textContent+=num.id});}
+let equals = document.querySelector("#equals");
+equals.addEventListener("click", function () {screen.textContent=(eval(screen.textContent))
+  });

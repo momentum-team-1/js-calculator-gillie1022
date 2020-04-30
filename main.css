@@ -37,4 +37,12 @@
 
 .functionButton {
   background-color: rgb(100, 100, 100);
+  width: 23%;
+  padding: 1.25em 0em;
+  margin: 0.3vh 0px;
+  font-size: 3.25vw;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 1em;
 }
