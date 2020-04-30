@@ -1,5 +1,3 @@
-let x = document.querySelector(".calculator");
-
 let screen = document.querySelector("#screen");
 
 for (let num of document.querySelectorAll(".button")) {
