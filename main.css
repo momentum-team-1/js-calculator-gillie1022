@@ -32,10 +32,12 @@
   align-items: center;
 }
 
+#clear{
+    background-color: darkorange;
+}
 
 
-
-.functionButton {
+.operatorButton {
   background-color: rgb(100, 100, 100);
   width: 23%;
   padding: 1.25em 0em;
