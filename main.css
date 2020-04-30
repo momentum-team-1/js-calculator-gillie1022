@@ -21,7 +21,8 @@
   border-radius: 1em;
 }
 
-#screen {display: flex;
+#screen {
+  display: flex;
   width: 74.4%;
   font-size: 4vw;
   background-color: black;
@@ -32,10 +33,9 @@
   align-items: center;
 }
 
-#clear{
-    background-color: darkorange;
+#clear {
+  background-color: darkorange;
 }
-
 
 .operatorButton {
   background-color: rgb(100, 100, 100);

@@ -9,8 +9,11 @@ for (let num of document.querySelectorAll(".button")) {
 }
 
 let clear = document.querySelector("#clear");
-clear.addEventListener("click", function(){screen.textContent=""});
+clear.addEventListener("click", function () {
+  screen.textContent = "";
+});
 
 let equals = document.querySelector("#equals");
-equals.addEventListener("click", function () {screen.textContent=(eval(screen.textContent))
-  });
+equals.addEventListener("click", function () {
+  screen.textContent = eval(screen.textContent);
+});
